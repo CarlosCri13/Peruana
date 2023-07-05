@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FFC0CB, #FFFFFF);
+  }
+  
+  /* Estilos de la cabecera */
+  header {
+    background-color: #FAD6E7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 28px;
+  }
+  
+  /* Estilos de la navegación */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 40px 20px;
+  }
+  
+  section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Estilos de la galería */
+  section#galeria {
+    background-color: #FCE4EC;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section#galeria h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section#galeria img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #FFC0CB;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #fff;
+  }
+  
+  .animacion {
+    animation: fade 1s;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos para dispositivos de hasta 600px de ancho */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    section h2 {
+      font-size: 20px;
+    }
+  
+    section p {
+      font-size: 14px;
+    }
+  
+    section#galeria img {
+      margin: 10px auto;
+    }
+  }
+  
+  /* Estilos para dispositivos de hasta 400px de ancho */
+  @media screen and (max-width: 400px) {
+    header h1 {
+      font-size: 20px;
+    }
+  
+    section h2 {
+      font-size: 18px;
+    }
+  
+    section p {
+      font-size: 12px;
+    }
+  
+    section#galeria img {
+      margin: 5px auto;
+    }
+  }
+  
